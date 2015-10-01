@@ -1,9 +1,22 @@
 /* This is here to give everything a red border, just to make it easier to see while developing. */
 * {
   box-sizing: border-box;
-
-  border: thin red solid;
+  /*border: thin red solid;*/
+  text-align: left;
 }
 /* You can turn it off if you want. (delete or comment it out) */
 
 /* Write your rules below */
+
+.button {
+  color: white;
+  background-color: lightblue;
+  border-radius: 20px;
+  margin: 5px;
+  padding: 5px;
+  box-shadow: 1px 1px 2px black;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  display: block;
+}
